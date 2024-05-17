@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto_Mono({
+    subsets: ["latin"],
+    variable:'--font-roboto'
+});
 
 export const metadata: Metadata = {
   title: "Vladyslav Gershman",
@@ -16,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${roboto.variable} font-sans`}>
        {children}
       </body>
     </html>

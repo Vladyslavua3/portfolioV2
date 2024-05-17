@@ -13,7 +13,7 @@ interface AnimatedPinType {
 
 export function ProjectCard({title,description,link,thumbnail}:AnimatedPinType) {
     return (
-        <div className="h-[35rem] flex items-center justify-center z-10 " id={'work'}>
+        <div className="h-[25rem] flex items-center justify-center z-10 " id={'work'}>
             <PinContainer
                 title={link}
                 href={link}

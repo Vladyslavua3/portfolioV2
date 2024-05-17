@@ -20,7 +20,7 @@ const Navbar = () => {
                           setActive('')
                           window.scroll(0, 0)
                       }}>
-                    <p className='text-white text-[18px]
+                    <p className='text-slate-400 text-[18px]
             font-bold cursor-pointer flex'>Gershman &nbsp;
                         <span className='sm:block hidden'>| Frontend Developer</span></p>
                 </Link>
@@ -29,8 +29,8 @@ const Navbar = () => {
                     {navLinks.map((link) => (
                         <li key={link.id} className={`
                   ${active === link.title
-                            ? 'text-white'
-                            : 'text-secondary'}
+                            ? 'text-slate-200'
+                            : 'text-slate-400'}
                   hover:text-white text-[18px]
                   font-medium cursor-pointer`}
                             onClick={() => setActive(link.title)}>

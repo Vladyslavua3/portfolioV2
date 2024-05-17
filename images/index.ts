@@ -4,6 +4,7 @@ import cryptoHub from "../images/cryptoHub.png";
 import inctagram from "../images/inctagram.png";
 import moe from "../images/moe.png";
 import subfag from "../images/subfag.png";
+import aquasave from "../images/aquasave.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -41,5 +42,6 @@ export {
     carRent,
     cms,
     nextjs,
-    moe
+    moe,
+    aquasave
 }
