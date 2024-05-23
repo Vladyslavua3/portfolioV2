@@ -3,6 +3,7 @@ import {navLinks} from "../../lib/data";
 import Link from "next/link";
 import Image from "next/image";
 import {menu} from "@/images";
+import {close} from "@/images"
 
 
 const Navbar = () => {
