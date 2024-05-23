@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -20,10 +21,12 @@ export default function RootLayout({
   return (
     <html lang="en">
     <head>
+      <title>Vladyslav Gershman | Software Developer</title>
       <link rel="icon" href="/favicon.ico" sizes="any"/>
     </head>
     <body className={roboto.className}>
     {children}
+    <Analytics/>
       </body>
     </html>
   );
