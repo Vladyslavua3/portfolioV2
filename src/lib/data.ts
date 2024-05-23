@@ -23,7 +23,7 @@ import {
     inctagramadmin,
     jobtracker,
     portfolio3d
-} from '../../images/'
+} from '../images/'
 
 export const data = [
     {
