@@ -14,59 +14,78 @@ import {
     threejs,
     subfag,
     inctagram,
-    cryptoHub,
     carRent,
     cms,
     nextjs,
-    moe
+    moe,
+    aquasave,
+    tonstat,
+    inctagramadmin,
+    jobtracker,
+    portfolio3d
 } from '../../images/'
 
 export const data = [
     {
-        title: "Car Rent",
-        link: "https://gomoonbeam.com",
-        thumbnail:carRent,
-    },
-    {
-        title: "Cursor",
-        link: "https://cursor.so",
-        thumbnail:cms,
-    },
-    {
-        title: "Rogue",
-        link: "https://userogue.com",
-        thumbnail:cryptoHub,
-    },
-
-    {
-        title: "Editorially",
-        link: "https://editorially.org",
+        title: "Inctagram",
+        description:'Contributed to the development of a social networking platform akin to Instagram, implementing core features such as photo sharing, user profiles, and interactive elements like comments and likes.',
+        link: "https://inctagram-v2-dev.vercel.app/",
         thumbnail:inctagram,
     },
     {
-        title: "Editrix AI",
-        link: "https://editrix.ai",
+        title: "Inctagram-Admin",
+        description:'Developed an administration tool for a social networking platform, enabling streamlined management of user activities, content moderation, and analytics reporting.',
+        link: "https://inctagram-superadmin.vercel.app/",
+        thumbnail:inctagramadmin,
+    },
+
+    {
+        title: "JobTracker",
+        description:'Designed and implemented a robust Job Tracker Application that enables users to efficiently manage job applications and schedule interviews.',
+        link: "https://github.com/Vladyslavua3/jobTracker",
+        thumbnail:jobtracker,
+    },
+    {
+        title: "Content Manager System",
+        description:'Conceptualized and developed a comprehensive Content Management System (CMS), designed to provide a user-friendly platform for content creation and management.',
+        link: "https://github.com/Vladyslavua3/CMS-System",
+        thumbnail:cms,
+    },
+    {
+        title: "Clothing Store",
+        description:'Developed and integrated a clothing store module into a custom CMS, supporting efficient inventory management, sales tracking, and enhanced customer interactions.',
+        link: "https://github.com/Vladyslavua3/StoreForCms",
         thumbnail:moe,
     },
     {
-        title: "Pixel Perfect",
-        link: "https://app.pixelperfect.quest",
+        title: "AquaSave",
+        description:'Crafted an innovative map interface during a hackathon for AquaSave, showcasing real-time locations and statuses of IoT devices to monitor water usage and conservation efforts.',
+        link: "https://aquasave-explorer.vercel.app/",
+        thumbnail:aquasave,
+    },
+    {
+        title: "TonStats",
+        description:'Designed and implemented dynamic charts for the TON ecosystem during a hackathon, providing visual analytics and insights into blockchain transactions and activities.',
+        link: "https://tonscan.org/stats",
+        thumbnail:tonstat,
+    },
+    {
+        title: "Subfag",
+        description:'Web-based platform that allows users to play online in GSGO, book, and provide users marketplace to exchange game items .',
+        link: "Not available already",
         thumbnail:subfag,
     },
     {
-        title: "Pixel Perfect",
-        link: "https://app.pixelperfect.quest",
-        thumbnail:subfag,
+        title: "Portfolio 3D",
+        description:'Created a visually captivating online portfolio using Three.js, showcasing interactive 3D elements to highlight personal projects and professional skills.',
+        link: "https://vladyslavua3.github.io/3dPortfolio/",
+        thumbnail:portfolio3d,
     },
     {
-        title: "Pixel Perfect",
-        link: "https://app.pixelperfect.quest",
-        thumbnail:subfag,
-    },
-    {
-        title: "Pixel Perfect",
-        link: "https://app.pixelperfect.quest",
-        thumbnail:subfag,
+        title: "Car Rent",
+        description:'Developed a car rental platform, facilitating easy vehicle booking, management, and tracking, equipped with user-friendly interfaces for both customers and administrators.',
+        link: "https://rent-car-chi-gules.vercel.app/",
+        thumbnail:carRent,
     },
 
 ];
