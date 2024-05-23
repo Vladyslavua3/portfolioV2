@@ -64,7 +64,7 @@ const Contact = () => {
         <div className="h-screen relative w-full mt-10 overflow-hidden bg-slate-900 flex flex-col items-center justify-center rounded-lg" id={'contact'}>
             {/*<div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />*/}
             {/*/!*<Boxes />*!/*/}
-        <div className="max-w-md md:w-full z-10 mx-auto rounded-2xl md:rounded-2xl p-4 md:p-8 shadow-input bg-#1d1c20">
+        <div className="max-w-md w-[300px] sm:w-full z-10 mx-auto rounded-2xl md:rounded-2xl p-4 md:p-8 shadow-input bg-#1d1c20">
             <h2 className="font-bold text-xl text-neutral-200">
                 Send me message
             </h2>
