@@ -7,9 +7,9 @@ import {TextGenerateEffect} from "@/components/ui/text-generate-effect";
 const Work = () => {
 
     return (
-        <div >
+        <div>
             <div className={'sm:px-16 px-6 sm:py-16 py-10'}>
-                <h1 className={ "text-slate-600 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]"}>Work Experience</h1>
+                <h1 className={"text-slate-600 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]"}>Work Experience</h1>
 
                 <TextGenerateEffect words={workSection} />
             </div>

@@ -19,8 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} font-sans`}>
-       {children}
+    <head>
+      <link rel="icon" href="/favicon.ico" sizes="any"/>
+    </head>
+    <body className={roboto.className}>
+    {children}
       </body>
     </html>
   );

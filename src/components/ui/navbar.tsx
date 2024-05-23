@@ -1,9 +1,8 @@
 import React, {useState} from 'react'
 import {navLinks} from "../../lib/data";
 import Link from "next/link";
-import close from '../../../images/close.svg'
-import menu from '../../../images/menu.svg'
 import Image from "next/image";
+import {menu} from "@/images";
 
 
 const Navbar = () => {
@@ -22,7 +21,7 @@ const Navbar = () => {
                       }}>
                     <p className='text-slate-400 text-[18px]
             font-bold cursor-pointer flex'>Gershman &nbsp;
-                        <span className='sm:block hidden'>| Frontend Developer</span></p>
+                        <span className='sm:block hidden'>| Software Developer</span></p>
                 </Link>
                 <ul className='list-none hidden sm:flex
           flex-row gap-10'>

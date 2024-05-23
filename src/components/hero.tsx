@@ -2,6 +2,8 @@ import {HeroParallax} from "@/components/ui/hero-parallax";
 import {data} from "@/lib/data";
 
 
-export function HeroParallaxDemo() {
+function Hero() {
     return <HeroParallax products={data}/>;
 }
+
+export default Hero
